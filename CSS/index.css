@@ -136,7 +136,9 @@ html,
 body {
   font-family: 'Roboto', sans-serif;
 }
-h1,
+h1 {
+  font-family: 'sofia', cursive;
+}
 h2,
 h3,
 h4,
@@ -164,7 +166,42 @@ img {
   height: auto;
 }
 .container {
-  max-width: 800px;
+  max-width: 1200px;
   width: 100%;
   margin: 0 auto;
+}
+.navigation {
+  max-width: 1000px;
+  display: flex;
+  margin: 20px 0;
+  padding: 20px 0;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+.navigation a {
+  margin-left: 30px;
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: black;
+}
+.navigation h1 {
+  margin-left: 10%;
+}
+.navigation nav {
+  margin-right: 15%;
+}
+@media (max-width: 500px) {
+  .navigation {
+    width: 100%;
+    flex-direction: column;
+  }
+  .navigation h1 {
+    margin-bottom: 10px;
+  }
+  .navigation a {
+    margin-left: 40px;
+    font-size: 1.4rem;
+  }
 }
