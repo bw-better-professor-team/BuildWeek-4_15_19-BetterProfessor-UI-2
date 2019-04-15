@@ -205,11 +205,38 @@ img {
     font-size: 1.4rem;
   }
 }
+.footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  background: linear-gradient(to right, #3366ff 0%, #d3d3d3 100%);
+}
+.footer p {
+  text-align: center;
+  color: black;
+  font-size: 1.6rem;
+  padding: 20px;
+}
 .home .header-section {
   background: linear-gradient(to right, #d3d3d3 0%, #3366ff 100%);
 }
 .home .header-section .header-text {
-  padding: 10px 0;
+  padding: 10px 1%;
+}
+.home .header-section .header-text .redirectButton {
+  display: inline;
+  margin: 0 10px 20px;
+  cursor: pointer;
+  height: 45px;
+  font-size: 2rem;
+  border-radius: 5px;
+  width: 150px;
+  background-color: 7694ED;
+  color: #d9e4eb;
+}
+.home .header-section .header-text .redirectButton:hover {
+  background-color: black;
+  color: green;
 }
 .home .header-section .header-text h1 {
   padding-bottom: 10px;
@@ -229,7 +256,8 @@ img {
 .home .addsection .marketing {
   width: 30%;
   margin-bottom: 30px;
-  padding-right: 5%;
+  padding-right: 2%;
+  background-color: #f2f2f2;
 }
 @media (max-width: 500px) {
   .home .addsection .marketing {
