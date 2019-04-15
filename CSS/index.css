@@ -139,10 +139,10 @@ body {
 h1 {
   font-family: 'sofia', cursive;
 }
+h2,
 h4 {
   font-family: 'Oleo Script', cursive;
 }
-h2,
 h3,
 h5 {
   font-family: 'Indie Flower', cursive;
@@ -221,6 +221,16 @@ img {
 }
 .home .header-section {
   background: linear-gradient(to right, #d3d3d3 0%, #3366ff 100%);
+}
+.home .header-section .imagetext {
+  position: relative;
+}
+.home .header-section .imagetext .textblock {
+  width: 30%;
+  position: absolute;
+  top: 20px;
+  left: 2%;
+  color: white;
 }
 .home .header-section .header-text {
   padding: 10px 1%;
