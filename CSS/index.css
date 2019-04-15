@@ -1,0 +1,292 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+  font-family: 'sofia', cursive;
+}
+h2,
+h4 {
+  font-family: 'Oleo Script', cursive;
+}
+h3,
+h5 {
+  font-family: 'Indie Flower', cursive;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3.2rem;
+  padding-bottom: 10px;
+}
+h4 {
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+p {
+  line-height: 1.5;
+  font-size: 1.6rem;
+  padding-bottom: 10px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+.navigation {
+  max-width: 1000px;
+  display: flex;
+  margin: 20px 0;
+  padding: 20px 0;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+.navigation a {
+  margin-left: 30px;
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: black;
+}
+.navigation h1 {
+  margin-left: 10%;
+}
+.navigation nav {
+  margin-right: 15%;
+}
+@media (max-width: 500px) {
+  .navigation {
+    width: 100%;
+    flex-direction: column;
+  }
+  .navigation h1 {
+    margin-bottom: 10px;
+    margin-left: 0%;
+  }
+  .navigation a {
+    margin-left: 40px;
+    font-size: 1.4rem;
+  }
+}
+.footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  background: linear-gradient(to right, #3366ff 0%, #d3d3d3 100%);
+}
+.footer p {
+  text-align: center;
+  color: black;
+  font-size: 1.6rem;
+  padding: 20px;
+}
+.home .header-section {
+  background: linear-gradient(to right, #d3d3d3 0%, #3366ff 100%);
+}
+.home .header-section .imagetext {
+  position: relative;
+}
+.home .header-section .imagetext .textblock {
+  width: 30%;
+  position: absolute;
+  top: 20px;
+  left: 2%;
+  color: white;
+}
+@media (max-width: 500px) {
+  .home .header-section .imagetext .textblock {
+    width: 100%;
+  }
+}
+.home .header-section .header-text {
+  padding: 10px 1%;
+}
+.home .header-section .header-text .redirectButton {
+  display: inline;
+  margin: 0 10px 20px;
+  cursor: pointer;
+  height: 45px;
+  font-size: 2rem;
+  border-radius: 5px;
+  width: 150px;
+  background-color: 7694ED;
+  color: white;
+}
+.home .header-section .header-text .redirectButton:hover {
+  background-color: white;
+  color: black;
+}
+.home .header-section .header-text h1 {
+  padding-bottom: 10px;
+}
+.home .addsection {
+  padding-top: 30px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 500px) {
+  .home .addsection {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+.home .addsection .marketing {
+  width: 30%;
+  margin-bottom: 30px;
+  padding-right: 2%;
+  background-color: #f2f2f2;
+}
+@media (max-width: 500px) {
+  .home .addsection .marketing {
+    width: 100%;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+@media (max-width: 500px) {
+  .container {
+    width: 90%;
+  }
+}
