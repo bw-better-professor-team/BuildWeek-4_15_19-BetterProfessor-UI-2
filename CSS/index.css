@@ -232,6 +232,11 @@ img {
   left: 2%;
   color: white;
 }
+@media (max-width: 500px) {
+  .home .header-section .imagetext .textblock {
+    width: 100%;
+  }
+}
 .home .header-section .header-text {
   padding: 10px 1%;
 }
