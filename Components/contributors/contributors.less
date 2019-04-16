@@ -1,0 +1,80 @@
+.tabs{
+
+//     max-width: 1200px;
+//   width: 100%;
+//   margin: 0 auto;
+padding-left: 15%;
+    
+    
+    .developersTab {
+        display: flex;
+        font-size: 2rem;
+        flex-direction: row;
+        margin-top: 1%;
+        margin-bottom: 2%;
+        border: solid red 1px;
+        
+        //border: 1px solid red;
+        .tab{
+            display: flex;
+            //border: solid rgb(108, 27, 155) 1px;
+            justify-content: space-between;
+            margin-left: 2%;
+            padding-left: 2%;
+            cursor: pointer;
+            
+        }
+    }
+
+
+}
+
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+   border: solid red 2px;
+   padding-left: 15%;
+    
+.card{
+    //border: solid rgb(108, 27, 155) 1px;
+    width:40%;
+    margin-right: 2%;
+    height: 200px;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 8px #888888;
+    position: relative;
+   
+     .avatarText{
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-between;
+         align-items: center;
+         img{
+            
+             width:30%;
+             margin-top: 2%;
+             
+         }
+         p{
+           
+            margin-right: 5%;
+            font-family: 'Oleo Script', cursive;
+         }
+     }
+     .headline{
+         font-size: 2rem
+     }
+     .connect{
+         background-color: rgb(79, 155, 226);
+         height: 30px;
+         width: 100%;
+         position: absolute;
+         bottom: 1px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         font-size: 1.8rem; 
+     }
+}
+}
