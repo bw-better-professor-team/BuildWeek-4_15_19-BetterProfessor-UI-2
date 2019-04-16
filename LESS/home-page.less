@@ -1,22 +1,24 @@
 .home {
   .header-section {
     background: linear-gradient(to right, #d3d3d3 0%, #3366ff 100%);
-    .imagetext {
-      position: relative;
+    // .imagetext {
+    //   position: relative;
       
-      .textblock {
-        width:100%;
-        height: auto;
-        position: absolute;
-        top: 5px;
-        left: 2%;
-        color: white;
-        @media @mobile {
-            width: 100%;
-                     }
+    //   .textblock {
+    //     width:100%;
+    //     height: auto;
+    //     position: absolute;
+    //     top: 20%;
         
-      }
-    }
+    //     text-align: center;
+    //     color: white;
+    //     @media @mobile {
+    //         width: 100%;
+    //                  }
+                    
+        
+    //   }
+    // }
     .header-text {
       padding: 10px 1%;
       .redirectButton {
@@ -26,6 +28,9 @@
       h1 {
         padding-bottom: 10px;
       }
+      @media @mobile {
+        display:none;
+                 }
     }
   }
 
@@ -57,5 +62,28 @@
 @media @mobile {
   .container {
     width: 90%;
+  }
+}
+
+
+.imagetext {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+  
+  .textblock {
+    width:100%;
+    height: auto;
+    position: absolute;
+    top: 20%;
+    
+    text-align: center;
+    color: white;
+    @media @mobile {
+        width: 100%;
+                 }
+                
+    
   }
 }
