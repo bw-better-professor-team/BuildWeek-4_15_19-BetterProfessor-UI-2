@@ -194,6 +194,7 @@ img {
 }
 .navigation h1 {
   margin-left: 5%;
+  cursor: pointer;
 }
 .navigation nav {
   width: 60%;
@@ -240,6 +241,10 @@ img {
   margin: 0 auto;
   width: 100%;
   background: linear-gradient(to right, #3366ff 0%, #d3d3d3 100%);
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 .footer p {
   text-align: center;
@@ -252,21 +257,6 @@ img {
 }
 .home .header-section .header-text {
   padding: 10px 1%;
-}
-.home .header-section .header-text .redirectButton {
-  display: inline;
-  margin: 0 10px 20px;
-  cursor: pointer;
-  height: 45px;
-  font-size: 2rem;
-  border-radius: 5px;
-  width: 150px;
-  background-color: 7694ED;
-  color: white;
-}
-.home .header-section .header-text .redirectButton:hover {
-  background-color: white;
-  color: black;
 }
 .home .header-section .header-text h1 {
   padding-bottom: 10px;
@@ -319,6 +309,19 @@ img {
   position: absolute;
   top: 20%;
   text-align: center;
+  color: white;
+}
+.imagetext .textblock .redirectreact {
+  display: inline;
+  margin: 0 10px 20px;
+  cursor: pointer;
+  font-size: 2rem;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+}
+.imagetext .textblock .redirectreact:hover {
+  background-color: black;
   color: white;
 }
 @media (max-width: 500px) {
@@ -412,9 +415,8 @@ img {
   max-width: 500px;
   margin: 0 auto;
   padding: 10px;
-  background-color: #0a684d;
+  background-color: #4f5553;
   border-radius: 8px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
   color: white;
   margin-top: 30px;
 }
@@ -438,4 +440,16 @@ img {
 .contact .outer .input-text .drop {
   width: 100%;
   height: 30px;
+}
+.contact .outer .submitbtn {
+  border: solid white 1px;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  margin-left: 50%;
+  font-size: 2rem;
+  cursor: pointer;
+  border-radius: 10px;
 }
