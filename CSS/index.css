@@ -173,7 +173,7 @@ img {
   margin: 0 auto;
 }
 .navigation {
-  max-width: 1000px;
+  max-width: 1200px;
   display: flex;
   margin: 20px 0;
   padding: 20px 0;
@@ -181,18 +181,21 @@ img {
   align-items: center;
   width: 100%;
   margin: 0 auto;
+  background-color: black;
+  color: white;
 }
 .navigation a {
-  margin-left: 30px;
-  font-size: 1.6rem;
+  margin-left: 12%;
+  font-size: 1.8rem;
   text-decoration: none;
-  color: black;
+  color: white;
 }
 .navigation h1 {
-  margin-left: 10%;
+  margin-left: 5%;
 }
 .navigation nav {
-  margin-right: 15%;
+  width: 60%;
+  margin-left: 5%;
 }
 @media (max-width: 500px) {
   .navigation {
@@ -221,9 +224,6 @@ img {
     display: block;
     text-align: center;
     border-bottom: 1px black solid;
-    margin-right: 0% ;
-    padding-right: 0%;
-    padding-left: 0%;
     margin-left: 0%;
     background-color: #ddd5cb;
     margin-top: 2px;
