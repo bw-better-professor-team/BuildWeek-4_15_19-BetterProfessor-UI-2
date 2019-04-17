@@ -439,13 +439,25 @@ img {
   margin-bottom: 10px;
   font-size: 1.8rem;
 }
+@media (max-width: 500px) {
+  .contact .outer .label-text {
+    font-size: 1.4rem;
+    width: 40%;
+  }
+}
 .contact .outer .input-text {
   padding: 10px;
   width: 70%;
   margin-bottom: 10px;
 }
-.contact .outer .input-text input,
-.contact .outer .input-text .drop {
+@media (max-width: 500px) {
+  .contact .outer .input-text {
+    padding: 0;
+    width: 60%;
+    margin-bottom: 0px;
+  }
+}
+.contact .outer .input-text input {
   width: 100%;
   height: 30px;
 }
