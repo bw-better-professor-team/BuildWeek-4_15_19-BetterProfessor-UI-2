@@ -12,6 +12,11 @@ padding-left: 15%;
         flex-direction: row;
         margin-top: 1%;
         margin-bottom: 2%;
+        border-top: 2px dashed black;
+        border-bottom: 2px dashed black;
+        margin-right: 18%;
+        padding-top: 2%;
+        padding-bottom: 2%;
         
         
         //border: 1px solid red;
@@ -22,12 +27,17 @@ padding-left: 15%;
             margin-left: 2%;
             padding-left: 2%;
             cursor: pointer;
+            //padding-right: 0%;
+            
             
             @media @mobile{
                 display: none;
             }
-            
         }
+        .active-tab{
+            border-bottom: 2px solid black
+        } 
+        
 
         @media @mobile {
             font-size: 2rem;
@@ -69,7 +79,7 @@ padding-left: 15%;
             
              width:30%;
              margin-top: 2%;
-             
+            
          }
          p{
            

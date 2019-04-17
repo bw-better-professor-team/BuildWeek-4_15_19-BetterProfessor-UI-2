@@ -252,6 +252,9 @@ img {
   font-size: 1.6rem;
   padding: 20px;
 }
+.fnon {
+  display: none;
+}
 .home .header-section {
   background: linear-gradient(to right, #d3d3d3 0%, #3366ff 100%);
 }
@@ -346,6 +349,11 @@ img {
   flex-direction: row;
   margin-top: 1%;
   margin-bottom: 2%;
+  border-top: 2px dashed black;
+  border-bottom: 2px dashed black;
+  margin-right: 18%;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 .tabs .developersTab .tab {
   display: flex;
@@ -358,6 +366,9 @@ img {
   .tabs .developersTab .tab {
     display: none;
   }
+}
+.tabs .developersTab .active-tab {
+  border-bottom: 2px solid black;
 }
 @media (max-width: 500px) {
   .tabs .developersTab {
