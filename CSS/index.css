@@ -404,6 +404,7 @@ img {
 .cards-container .card .avatarText img {
   width: 30%;
   margin-top: 2%;
+  border-radius: 25%;
 }
 .cards-container .card .avatarText p {
   margin-right: 5%;
