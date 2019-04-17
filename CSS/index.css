@@ -192,6 +192,9 @@ img {
   text-decoration: none;
   color: white;
 }
+.navigation a:hover {
+  border-bottom: 2px solid white;
+}
 .navigation h1 {
   margin-left: 5%;
   cursor: pointer;
