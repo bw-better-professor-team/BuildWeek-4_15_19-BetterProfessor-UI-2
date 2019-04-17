@@ -252,6 +252,9 @@ img {
   font-size: 1.6rem;
   padding: 20px;
 }
+.fnon {
+  display: none;
+}
 .home .header-section {
   background: linear-gradient(to right, #d3d3d3 0%, #3366ff 100%);
 }
