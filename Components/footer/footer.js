@@ -6,3 +6,5 @@ window.addEventListener("scroll", function() {
     footer.classList.add("fnon");
   }
 });
+
+//not working on the deployes site
