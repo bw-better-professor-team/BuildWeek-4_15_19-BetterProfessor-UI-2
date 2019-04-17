@@ -349,6 +349,11 @@ img {
   flex-direction: row;
   margin-top: 1%;
   margin-bottom: 2%;
+  border-top: 2px dashed black;
+  border-bottom: 2px dashed black;
+  margin-right: 18%;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 .tabs .developersTab .tab {
   display: flex;
@@ -361,6 +366,9 @@ img {
   .tabs .developersTab .tab {
     display: none;
   }
+}
+.tabs .developersTab .active-tab {
+  border-bottom: 2px solid black;
 }
 @media (max-width: 500px) {
   .tabs .developersTab {
