@@ -1,15 +1,29 @@
 .redirectButton() {
-    display: inline;
-    margin: 0 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    //margin: 0 10px 20px;
     cursor: pointer;
     font-size: 2rem;
     border-radius: 5px;
     background-color: white;
     color: black;
     border: solid black 1px;
+    width:100px;;
+    margin-left: 45%;
+    height:30px;;
+    padding-top:1.5%;
+    padding-bottom: 1.5%;
       
     &:hover {
       background-color:black;
       color: white;
     }
+    @media @mobile {
+      
+      margin-left:39%;
+      margin-bottom: 2%;
+    }
+
+
 }
