@@ -20,9 +20,13 @@
   .addsection {
     padding-top: 30px;
     margin-top: 20px;
-
+    //border: solid red 1px;
     display: flex;
     justify-content: space-between;
+      @media @tablet{
+        margin-left: 2%;
+      }
+
     @media @mobile {
       width: 100%;
       flex-direction: column;
@@ -33,6 +37,7 @@
       margin-bottom: 30px;
       padding-right: 2%;
       background-color: #f2f2f2;
+      border-radius: 5px;
       @media @mobile {
         width: 100%;
         align-items: center;
