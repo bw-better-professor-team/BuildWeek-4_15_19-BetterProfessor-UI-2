@@ -1,7 +1,10 @@
 class Tabs {
   constructor(tabe) {
     this.tabe = tabe;
+    // grab the data-tab attribute from each element
     this.tabindex = this.tabe.dataset.tab;
+
+    //grab the cards based on the attribute from the data-tab
 
     if (this.tabindex === "all") {
       this.cards = document.querySelectorAll(".card");
@@ -10,7 +13,7 @@ class Tabs {
         `.card[data-tab='${this.tabindex}']`
       );
     }
-
+     //loop thorough each card and pass it to another class (Cards)
     this.cards = Array.from(this.cards).map(element => {
       return new Cards(element);
     });
@@ -24,6 +27,7 @@ class Tabs {
     const cards = document.querySelectorAll(".card");
     cards.forEach(element => (element.style.display = "none"));
     this.tabe.classList.add('active-tab')
+    //run selectCard method for each card 
     this.cards.forEach(card => card.selectCard());
   }
 }
@@ -37,14 +41,13 @@ class Cards {
   }
 }
 
+//grab the element we want to manuplate 
 const tabs = document.querySelectorAll(".tab");
 
+//loop through each element and pass it to the class ( Tabs)
 tabs.forEach(element => {
   //console.log(element)
   return new Tabs(element);
 });
 
 
-/**
-
-@-webkit-keyframes rotate-scale-up{0%{-webkit-transform:scale(1) rotateZ(0);transform:scale(1) rotateZ(0)}50%{-webkit-transform:scale(2) rotateZ(180deg);transform:scale(2) rotateZ(180deg)}100%{-webkit-transform:scale(1) rotateZ(360deg);transform:scale(1) rotateZ(360deg)}}@keyframes rotate-scale-up{0%{-webkit-transform:scale(1) rotateZ(0);transform:scale(1) rotateZ(0)}50%{-webkit-transform:scale(2) rotateZ(180deg);transform:scale(2) rotateZ(180deg)}100%{-webkit-transform:scale(1) rotateZ(360deg);transform:scale(1) rotateZ(360deg)}} */
