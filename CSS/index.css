@@ -281,6 +281,11 @@ img {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 800px) {
+  .home .addsection {
+    margin-left: 2%;
+  }
+}
 @media (max-width: 500px) {
   .home .addsection {
     width: 100%;
@@ -292,6 +297,7 @@ img {
   margin-bottom: 30px;
   padding-right: 2%;
   background-color: #f2f2f2;
+  border-radius: 5px;
 }
 @media (max-width: 500px) {
   .home .addsection .marketing {
@@ -336,9 +342,9 @@ img {
   cursor: pointer;
   font-size: 2rem;
   border-radius: 5px;
-  background-color: white;
-  color: black;
-  border: solid black 1px;
+  background-color: #FF4500;
+  color: White;
+  border: solid white 1px;
   width: 100px;
   margin-left: 45%;
   height: 30px;
@@ -346,8 +352,8 @@ img {
   padding-bottom: 1.5%;
 }
 .imagetext .textblock .redirectreact:hover {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: #FF4500;
 }
 @media (max-width: 500px) {
   .imagetext .textblock .redirectreact {
@@ -684,6 +690,10 @@ img {
 .contact .outer .input-text input {
   width: 100%;
   height: 30px;
+}
+.contact .outer .input-text textarea {
+  width: 100%;
+  height: 50px;
 }
 .contact .outer .submitbtn {
   border: solid white 1px;
