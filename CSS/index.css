@@ -253,10 +253,13 @@ img {
   text-align: center;
   color: black;
   font-size: 1.6rem;
-  padding: 20px;
+  padding: 10px;
 }
 .fnon {
   display: none;
+}
+.home {
+  margin-bottom: 2%;
 }
 .home .header-section {
   background: linear-gradient(to right, #d3d3d3 0%, #3366ff 100%);
@@ -483,6 +486,7 @@ img {
   flex-wrap: wrap;
   justify-content: flex-start;
   padding-left: 15%;
+  margin-bottom: 5%;
 }
 .cards-container .card {
   width: 40%;

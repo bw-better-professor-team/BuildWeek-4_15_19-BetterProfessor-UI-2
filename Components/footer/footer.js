@@ -7,4 +7,3 @@ window.addEventListener("scroll", function() {
   }
 });
 
-//not working on the deployes site
